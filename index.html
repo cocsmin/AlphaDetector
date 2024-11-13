@@ -12,7 +12,11 @@
         <header>
             <button onclick="document.getElementById('background-music').play()">Alpha Music</button>
         </header>
-            <main>
+        <div class="video-bg">
+            <iframe class="video-bg-iframe" src="https://www.youtube.com/watch?v=zPelKg8eoWs" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+            <main class="content">
             <audio id="background-music" autoplay loop>
                 <source src="https://cocsmin.github.io/AlphaDetector/extras/AuMus.mp3" type="audio/mp3" preload="auto">
                 <source src="https://cocsmin.github.io/AlphaDetector/extras/AuMus.ogg" type="audio/ogg" preload="auto">
@@ -34,8 +38,6 @@
                     <button id="butonnu" onclick="handleResponse('No')" class="btn no-btn">No</button>
                 </div>
             </main>
-            <footer>
-            </footer>
     <script src="jscript.js"></script>
     </body>
 </html>
