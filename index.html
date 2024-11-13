@@ -10,23 +10,26 @@
     </head>
     <body>
         <header>
+            <button onclick="document.getElementById('background-music').play()">Alpha Music</button>
         </header>
             <main>
             <audio id="background-music" autoplay loop>
-                <source src="https://cocsmin.github.io/AlphaDetector/extras/just_like_animals.mp3" type="audio/mp3" preload="auto">
-                <source src="https://cocsmin.github.io/AlphaDetector/extras/just_like_animals.ogg" type="audio/ogg" preload="auto">
+                <source src="https://cocsmin.github.io/AlphaDetector/extras/AuMus.mp3" type="audio/mp3" preload="auto">
+                <source src="https://cocsmin.github.io/AlphaDetector/extras/AuMus.ogg" type="audio/ogg" preload="auto">
                 Your browser does not support the audio element.
+            </audio>
+            <audio id="auuu">
+                <source src="https://cocsmin.github.io/AlphaDetector/extras/auuu.mp3" type="audio/mp3" preload="auto">
+                <source src="https://cocsmin.github.io/AlphaDetector/extras/auuu.ogg" type="audio/ogg" preload="auto">
             </audio>
                 <div class="question-container">
                     <h2>Are you an alpha wolf?</h2>
                     <img src="https://i0.wp.com/tshirtatlowprice.com/wp-content/uploads/2024/01/Human-By-Chance-Alpha-By-Choice-Shirt.png?ssl=1"/>
                     <br>
-                    <button onclick="handleResponse('Yes')" class="btn yes-btn">Yes</button>
-                    <button onclick="handleResponse('No')" class="btn no-btn">No</button>
-                    <p id="response-message"></p>
+                    <button id="butonda" onclick="handleResponse('Yes')" class="btn yes-btn">Yes</button>
+                    <button id="butonnu" onclick="handleResponse('No')" class="btn no-btn">No</button>
                 </div>
             </main>
-            <button onclick="document.getElementById('background-music').play()">Play Sound</button>
             <footer>
             </footer>
     <script src="jscript.js"></script>
