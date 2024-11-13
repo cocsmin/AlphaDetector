@@ -9,9 +9,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <header>
-            <button onclick="document.getElementById('background-music').play()" class="alpha-music-btn">Alpha Music</button>
-        </header>
         <div class="video-bg">
             <video autoplay muted loop id="wvideo">
                 <source src="https://cocsmin.github.io/AlphaDetector/extras/wolfvideo.mp4" type="video/mp4">
@@ -38,6 +35,8 @@
                     <br>
                     <button id="butonda" onclick="handleResponse('Yes')" class="btn yes-btn">Yes</button>
                     <button id="butonnu" onclick="handleResponse('No')" class="btn no-btn">No</button>
+                    <br>
+                    <button onclick="document.getElementById('background-music').play()" class="alpha-music-btn">Alpha Music</button>
                 </div>
             </main>
     <script src="jscript.js"></script>
