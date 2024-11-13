@@ -1,12 +1,10 @@
 function handleResponse(answer) {
-    const messageElement = document.getElementById("response-message");
-  
     if (answer === "Yes") {
-      messageElement.textContent = "Thank you for your feedback!";
-      messageElement.style.color = "#4CAF50"; // Green color for positive response
+      // Opens a pop-up window for a "Yes" response
+      window.open("https://example.com/thank-you", "_blank", "width=400,height=200");
     } else {
-      messageElement.textContent = "We're sorry to hear that. We'll work on improving.";
-      messageElement.style.color = "#f44336"; // Red color for negative response
+      // Opens a pop-up window for a "No" response
+      window.open("https://example.com/feedback", "_blank", "width=400,height=200");
     }
   }
   
