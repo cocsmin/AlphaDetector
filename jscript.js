@@ -10,3 +10,8 @@ document.getElementById("butonda").addEventListener("click", function(){
     var sound = document.getElementById("auuu");
     sound.play();
 });
+
+document.getElementById("butonnu").addEventListener("click", function(){
+    var sound = document.getElementById("stinky");
+    sound.play();
+});
