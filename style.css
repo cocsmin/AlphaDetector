@@ -94,13 +94,13 @@ h2 {
 }
 
 .yes-btn {
-    background: linear-gradient(135deg, #28a745, #218838);
+    background: linear-gradient(135deg, #b81fc0, #8e0980);
     color: white;
     overflow: hidden;
 }
 
 .no-btn {
-    background: linear-gradient(135deg, #dc3545, #c82333);
+    background: linear-gradient(135deg, #1d57df, #1c51d6);
     color: white;
     overflow: hidden;
 }
