@@ -1,8 +1,8 @@
 function handleResponse(answer) {
     if (answer === "Yes") {
-      window.open("https://cocsmin.github.io/AlphaYes/", "_blank", "width=400,height=200");
+      window.open("https://cocsmin.github.io/AlphaYes/", "_blank", "width=1200,height=800");
     } else {
-      window.open("https://cocsmin.github.io/AlphaNo/", "_blank", "width=400,height=200");
+      window.open("https://cocsmin.github.io/AlphaNo/", "_blank", "width=1200,height=800");
     }
   }
   
