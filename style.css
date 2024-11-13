@@ -9,7 +9,13 @@ body {
 }
   
 .question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    gap: 10px;
+    
 }
   
 h2 {
@@ -18,24 +24,25 @@ h2 {
 
 .alpha-music-btn {
     font-family: 'Arial', sans-serif;
-    font-size: 16px; /* Smaller font size */
+    font-size: 16px;
     color: white;
-    background: #333; /* Black background */
-    padding: 10px 25px; /* Reduced padding */
+    background: #333;
+    padding: 10px 25px;
     border: none;
     border-radius: 50px;
     text-transform: uppercase;
-    letter-spacing: 1px; /* Reduced letter spacing */
+    letter-spacing: 1px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     z-index: 1;
+    margin-top: 20px;
 }
   
 .alpha-music-btn:hover {
-    background: #555; /* Dark gray on hover */
-    transform: translateY(-3px); /* Slightly less movement */
+    background: #555;
+    transform: translateY(-3px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
   
@@ -90,6 +97,12 @@ h2 {
 .no-btn {
     background-color: #550d08;
     color: white;
+}
+
+.butoane {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .video-bg {
